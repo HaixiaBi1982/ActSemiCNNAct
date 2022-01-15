@@ -3,7 +3,7 @@ This README would normally document whatever steps are necessary to get your app
 
 Installation Clone the code and its submodules
 
-git clone git@.git
+git clone git@github.com:HaixiaBi1982/ActSemiCNNAct.git
 
 cd ActSemi_CNN_Act
 
