@@ -5,7 +5,7 @@ Installation: Clone the code and its submodules
 
 ```bash
 git clone git@github.com:HaixiaBi1982/ActSemiCNNAct.git
-cd ActSemi_CNN_Act
+cd ActSemiCNNAct
 git submodule update --init --recursive
 ```
 
@@ -23,10 +23,8 @@ Introduction to the folders and files in this repo:
 - data-local: the datasets which can be used for validation
 - trainer: temporal ensembling based model training 
 - ActSemi_PAMAP_Test06.py: mail file for training and testing with PAMAP participant 06 data as testset
-- ActSemi_PAMAP_LOSO.py: Leave one subject out cross validation on PAMAP dataset
 
 Please run below lines to implement the method.
-- python main_USCHAD_LOSO.py 
 - python ActSemi_PAMAP_Test06.py
 The results will be saved to 'results' file in the root path of the repo, 
 which will be automatically created if not existing when running the experiments.
