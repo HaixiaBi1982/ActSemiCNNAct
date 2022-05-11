@@ -22,10 +22,10 @@ Introduction to the folders and files in this repo:
 - architectures: the backbone network strcutures can be used
 - data-local: the datasets which can be used for validation
 - trainer: temporal ensembling based model training 
-- ActSemi_PAMAP_Test06.py: mail file for training and testing with PAMAP participant 06 data as testset
+- ActSemi_UCI.py: mail file for training and testing with UCIHAR dataset
 
 Please run below lines to implement the method.
-- python ActSemi_PAMAP_Test06.py
+- python ActSemi_UCI.py
 The results will be saved to 'results' file in the root path of the repo, 
 which will be automatically created if not existing when running the experiments.
 
@@ -41,3 +41,13 @@ The main ideas of the method are as below:
 - Combine active learning and semisupervised learning to select informative samples and make use of unlabelle data
 - Apply a temporal ensembling-based semisupervised approach to achieve a consensus prediction using the outputs of the training networks on different epochs under network dropout regularization. (An ensemble of multiple networks generally generates more robust results than a single network)
 
+You are greatly appreciated if you cite below paper when finding this repo useful. 
+
+@article{bi2022active,
+  title={An active semi-supervised deep learning model for human activity recognition},
+  author={Bi, Haixia and Perello-Nieto, Miquel and Santos-Rodriguez, Raul and Flach, Peter and Craddock, Ian},
+  journal={Journal of Ambient Intelligence and Humanized Computing},
+  pages={1--17},
+  year={2022},
+  publisher={Springer}
+}
