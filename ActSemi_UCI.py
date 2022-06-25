@@ -29,7 +29,10 @@ from sklearn.cluster import KMeans
 from sklearn.metrics import f1_score
 import time
 
-from trainer import *
+from trainer import eTempensv2_1D
+from trainer import eTempensv2_OnlySup
+
+#from trainer import *
 build_model = {    
     'etempensv2_1D': eTempensv2_1D.Trainer,    
     'etempensv2_OnlySup': eTempensv2_OnlySup.Trainer,    
